@@ -522,6 +522,43 @@ h2 {
 //aqui terminamos el tag 09 y todas nuestras secciones
 
 
+10--//Vamos ahora a construir el footer que es lo unico que nos falta
+
+<footer class="footer">
+		<div class="container">
+			<div>
+				<p>Web page for Personal purposes <img src="img/platzi.png" width="80" alt=""></p>
+			</div>
+			<div>
+				<p>
+					Designed With <\3 by <strong>El Fantasma</strong></a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+//tambien estyilos
+
+.footer {
+	color: white;
+	background-color: #1b2127;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer img {
+	vertical-align: middle;
+}
+
+.footer p {
+	color: white;
+}
+
+//aso terminamos el tag 10
+
+
 
 
 
