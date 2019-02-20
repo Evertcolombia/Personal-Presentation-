@@ -7,3 +7,59 @@
 //El body se compone de tres secciones
 
 //y el footer, hagamos eso en el codigo para el tag 01
+
+2--//Como segundo paso  en el desarrollo de un sitio web debemos estructurar ahora el contenido de esas secciones que habiamos declarado header,secciones
+
+//Crearemos un nuevo archivo index.html Este contendra todo nuestro html
+
+//creamos nuestra base html
+
+<!DOCTYPE html>
+<html lang='es'> //el atributo lang nos sirve para declarar el lenguaje
+
+<head>
+	<meta charset='utf-8'> //Codificaciones de caracteres utf-8 en una etiqueta de metadatos
+
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet"> //Fuente escogida en googel fonts
+
+	<title>Evert Escalante</title>
+</head>
+
+
+//ahora creamos nuestro header dentro del body
+
+//Ponemos  clases a nuestros Elementos del header para identificarlos en el css, lo hacemos con el atributo class=''. Es una buena practica usar clases que se referencien al elemento o lo que hacen en ese momento
+
+<header class='header'>
+	<div class='container'> //hagamos una division de bloque
+
+		<figure class='logo'>//contendra nuestro logo de la pagina
+
+			<img src="">
+		</figure>
+
+		<nav class='menu'> //Define un menu de navegacion
+
+				<ol> //lista ordenada
+					<li> //list-item
+
+						<a class='link' href="#portfolio">Portfolio</a> //#portfolio nos lleva a la seccion portfolio que crearemos
+					</li>
+					<li>
+						<a class='link' href="#experiencie">Experiencie</a>
+					</li>
+					<li>
+						<a class='link' href="#contact">let's work toogether</a>
+					</li>
+				</ol>
+			</nav>
+	</div>
+</header>
+
+
+
+
+
+
+
+
