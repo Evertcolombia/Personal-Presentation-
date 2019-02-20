@@ -88,6 +88,52 @@ h2 {
 	width: 100%;
 }
 
+.event-list-title {
+	margin-left: 20px;
+}
+
+.event-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.event {
+	margin: 10px;
+	width: 480px;
+	border-radius: 10px;
+	background: #f4fbff;
+	box-shadow: 3px 5px 3px #888888;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.event img {
+	width: 480px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.event-detail {
+	margin: 20px 40px;
+	margin-top: -40px;
+	background-color: white;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+}
+
+.event-description {
+	text-align: left;
+}
+
+.event-url {
+	color: #056fff;
+	border: 1px solid;
+	padding: 5px 20px;
+	text-decoration: none;
+	border-radius: 5px
+}
+
 .header {
 	background-color: #1b2127;
 	color: white;

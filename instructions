@@ -334,6 +334,99 @@ h2 {
 //con esto termina el tag 07 
 
 
+8--//vamos a completar esta parte con la ultima seccion que se trata sobre la experiencia
+
+<div class="container"> /*contenedor para separarlo de la seccion*/
+
+	<h2 class="event-list-title">
+		About my experiencie
+	</h2>
+</div>
+
+<section class="event-list" id="event">  /*seccion de eventos*/
+
+	<div class="container">
+
+		<article class="event"> /*parte de codigo reutilizable por article*/
+
+			<figure class="event-imageContainer">
+				<img class='event-image' src="img/platzi-conf.jpg" />
+			</figure>
+			<div class="event-detail">
+				<h3 class="event-title">
+					Apps Co Hackathon
+				</h3>
+				<p class="event-description">
+					This convocatory by MinTic with Apps.co Colombia Goverment,  looks for new Ideas and bussiness  through the web world 
+				</p>
+				<a class='event-url' href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">See Video</a>
+			</div>
+		</article>
+	</div>
+</section>
+
+//debemos repetir este article almenos 4 veces para tener cuatro eventos para nuestra  experiencia
+
+//Vamos a darle estilos en style
+
+.event-list-title {
+	margin-left: 20px;
+}
+
+
+.event-list {
+	display: flex;
+	flex-wrap: wrap;  /*este wrap los envuelve a todosa asi se acomodan si la pantalla es mas pequeña uno  debajo  del otro*/
+}
+
+.event {
+	margin: 10px; /*margen de 10 px en todas las direcciones*/
+
+	width: 480px; /*ancho  480 + 10 de margen a la izquierda y 10 a la derecha = 500*/
+
+	border-radius: 10px;
+	background: #f4fbff;
+	box-shadow: 3px 5px 3px #888888;
+
+	flex-shrink: 0; /*Para que el elemento no se salga de su tamaño ni se haga mas pequeño*/
+
+	overflow: hidden; /*overflow =  desbordamiento, esta propiedad  especifica que deberia suceder si un  elemento se desborda de su  contenido, en  este caso lo escondemos*/
+}
+
+.event img {
+	width: 480px;
+	height: 200px;
+
+	object-fit: cover;  /*Para que la imagen no se despixele o se acomode segun el contendor y se ponga fea porque se debe estirar o algo asi*/
+}
+
+.event-detail {
+	margin: 20px 40px;
+	margin-top: -40px;
+	background-color: white;
+
+	position: relative; /*El elemento se coloca en relacion con su posicion  normal*/
+
+	padding: 20px;
+	text-align: center;
+}
+
+.event-description {
+	text-align: left;
+}
+
+.event-url {
+	color: #056fff;
+	border: 1px solid;
+	padding: 5px 20px;
+	text-decoration: none;
+	border-radius: 5px
+}
+
+//asi terminamos el tag 08 con nuestra seccion de Experiencia
+
+
+
 
 
 
