@@ -107,6 +107,25 @@ body {  //que la fuente de letra titular sea la que elegimos de google, y cuando
 
 //aqui termina el tag 03
 
+4--//nos falto la imagen del logo en el header, podemos poner la que queramos en este caso, si quieren la que yo uso estara en este tag 
+
+//creamos un fichero 'img' contendra nuestras imagenes
+
+//llamamos nuestra imagen de logo en el figure en el src de elimg tag
+
+	<img src="img/logo.png" alt='Logo de http://EvertEscalante.com'> //alt es para referenciar palabras que ayudan al seo
+
+//veremos que sale un poco grande asi que vamos a darle un poco de altura en el css
+
+.logo img {
+	height: 50px;
+}
+
+//Cuando llamamos a un elemento en el css, sea una clase un id un tag y separamos con espacio para poner otro  '.logo img' le decimos que le aplique esto a los tag img que estan dentro de un elemento con la clase logo
+
+//aqui termina el tag 04
+
+
 
 
 

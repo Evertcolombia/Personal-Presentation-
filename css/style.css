@@ -25,3 +25,7 @@ body {
 .menu {
 	height: inherit;
 }
+
+.logo img {
+	height: 50px;
+}
