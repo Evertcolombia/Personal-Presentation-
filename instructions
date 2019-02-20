@@ -170,6 +170,56 @@ ol {
 //aqui termina el tag 05 y la seccion del header por ahora
 
 
+6--//Ahora pasaremos a las secciones una por una
+
+//la primera se nombra como hero porque e sla primera esta es como una convencion
+
+<section class="hero"> //nombramos una seccion
+
+		<div class="container"> //dividimos un bloque
+			<h1>Hi I'm <strong>Evert Escalante</strong><br/>Frontend Developer with <strong>Javascript</strong> </h1>
+			<img class='hero-image' src="img/hero.jpg" alt='Principal image'>
+		</div>
+	</section>
+
+//vamos a darle estilos en el css
+
+h1, h2, h3, h4, h5, h6 { /*A todos los titulos*/
+
+	font-family: 'Fjalla One' sans-serif;
+	font-weight: normal;
+}
+
+h1 { /*a los tag h1*/
+
+	font-size: 40px;
+
+	line-height: 1.5; /*tamaño de alto de cada linea de texto igual al de la fuente*/
+
+	letter-spacing: -.2px; /*Espacio recomendado entre letras, el mas optimo y recomendado -.2px*/
+
+	color: white;
+	margin: 0;
+}
+
+
+.hero {
+	height: 300px;
+	background-color: #1b2177;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-image {
+	object-fit: cover; /*que la imagen se adapte a su contenedor*/
+
+	width: 500px;
+	height: 300px;	
+}
+
+//asi dejamos por ahora la seccion del hero y terminamos el tag 06
+
 
 
 
