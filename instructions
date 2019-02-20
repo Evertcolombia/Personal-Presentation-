@@ -426,6 +426,102 @@ h2 {
 //asi terminamos el tag 08 con nuestra seccion de Experiencia
 
 
+9--//Vamos a por la seccion de contacto
+
+<section class="contact" id="contact">
+	<div class="container">
+
+		<form class="form-email" action="/suscripcion"> /*Tag form que  representa un  formulario*/
+
+			<h3>Do we creating somethin together</h3>
+
+			<input type="text" placeholder='let me seee your E-mail' id='e-mail' />  /*Entrada de texto para el email*/
+
+			<button type="submit"> /*Boton para enviar asociado al form*/
+
+				Send
+			</button>
+		</form>
+
+		<div class="social">
+			<a  href="#" class="social-link- twitter"></a>
+			<a  href="#" class="social-link  github"></a>
+			<a  href="#" class="social-link linkedin"></a>
+			<a  href="#" class="social-link instagram"></a>
+		</div>
+	</div>
+</section>	
+
+//ahora le vamos a dar estilos en el css
+
+.contact {
+	background-color: #056fff;
+	color: white;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-email h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-email button {
+	display: block;
+	background: transparent;
+	color: white;
+	padding: 10px 0;
+	border-radius: 5px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+.form-email input {
+	border-color: gray;
+	padding:  10px 20px 10px 25px;
+	border-radius: 5px;
+	border-style: solid;
+
+	background-image: url('../img/envelope.svg'); /*aqui le estamos poniendo una imagen al background desde el css, esta imagen esta en formato svg*/
+
+	background-repeat: no-repeat; /*Como es pequeña, que no se repita*/
+
+	background-position-y: center; /*en el centro de manera vertical*/
+
+	background-position-x: 5px; /*a 5px de izquierda a derecha */
+
+	background-size: 30px 15px;
+}
+
+.social{
+
+}
+
+.social-link {
+	display: inline-block; /*bloque en linea*/
+
+	width: 50px;
+	height: 50px;
+	background-size: 50px 50px;
+	margin: 0 10px;
+}
+
+.social-link.twitter {
+	background-image: url('../img/twitter.svg');
+}
+
+.social-link.facebook {
+  background-image: url('../img/facebook.svg');
+}
+
+.social-link.github {
+  background-image: url('../img/github.svg');
+}
+
+//aqui terminamos el tag 09 y todas nuestras secciones
+
+
 
 
 

@@ -134,6 +134,65 @@ h2 {
 	border-radius: 5px
 }
 
+.contact {
+	background-color: #056fff;
+	color: white;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-email h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-email button {
+	display: block;
+	background: transparent;
+	color: white;
+	padding: 10px 0;
+	border-radius: 5px;
+	width: 100px;
+	margin-top: 10px;
+}
+
+.form-email input {
+	border-color: gray;
+	padding:  10px 20px 10px 25px;
+	border-radius: 5px;
+	border-style: solid;
+	background-image: url('../img/envelope.svg');
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+	background-size: 30px 15px;
+}
+
+.social{
+
+}
+
+.social-link {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: 50px 50px;
+	margin: 0 10px;
+}
+
+.social-link.twitter {
+	background-image: url('../img/twitter.svg');
+}
+
+.social-link.facebook {
+  background-image: url('../img/facebook.svg');
+}
+
+.social-link.github {
+  background-image: url('../img/github.svg');
+}
+
 .header {
 	background-color: #1b2127;
 	color: white;
