@@ -58,6 +58,55 @@
 
 
 
+3--//Crearemos ahora un nuevo fichero 'css' dentro creamos un style.css, vamos a darle estilo al header
+
+//ahora vamos a llamarlo desde nuestor index estos llamados suceden en el head
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+//Ahora en nuestro archivo de estilos
+
+body {  //que la fuente de letra titular sea la que elegimos de google, y cuando no este disponible o no ah cargado que use sans-serif
+
+	font-family: 'Source sans pro', sans-serif;
+	margin: 0;
+}
+
+//para llamar un elemento con una clase especifica usamos punto < .nombre >
+
+.header { 
+	background-color: #1b2127; //color de fondo
+	color: white; //color de la fuente
+
+	display: flex; //que no sea estatico
+	
+	height: 70px; //altura 
+
+	align-items: center;  //alinee el contenido en el centro,  de la forma vertical
+
+	justify-content: space-between; //espacio entre ellos
+}
+
+.container { //bloque contenedor
+
+	width: 1000px; //1000px de ancho
+
+	margin: 0 auto; // 0 hacia arriba y abajo, auto hacia los lados
+
+	display: inherit; //inherit == herencia, esta herencia viene de su padre mas cercano
+
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
+
+.menu { //que el menu tenga la misma altura al contenedor
+	height: inherit;
+}
+
+//aqui termina el tag 03
+
 
 
 

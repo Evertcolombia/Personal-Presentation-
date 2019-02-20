@@ -1,0 +1,27 @@
+body {
+	font-family: 'Source sans pro', sans-serif;
+	margin: 0;
+}
+
+.header {
+	background-color: #1b2127;
+	color: white;
+	display: flex;
+	height: 70px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
+
+.menu {
+	height: inherit;
+}
