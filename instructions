@@ -202,6 +202,9 @@ h1 { /*a los tag h1*/
 	margin: 0;
 }
 
+h1 strong {
+	color: #026fff;
+}
 
 .hero {
 	height: 300px;
@@ -220,6 +223,115 @@ h1 { /*a los tag h1*/
 
 //asi dejamos por ahora la seccion del hero y terminamos el tag 06
 
+
+7--//Vamos a por la segunda seccion la del  portafolio,  esta sera para exponer nuestros proyectos
+
+<section id="portafolio" class="portfolio">  /*El id nos sirve para hacer relacion  al enlace con # en el header*/
+
+  <div class="container"> /*bloque para titulos de la seccion*/
+
+    <h2>Portafolio (Proyectos Destacados)</h2>
+
+		<article class="project"> /*Composicion reutilizable*/
+
+	<div class="project-details"> /*Bloque*/
+
+		<h3 class="project-title"> /*Titulo*/ 
+			Movie Video
+		</h3>
+		<h6 class="project-course"> /*Titulo del curso del proyecto*/
+
+			Jquery to Javascript 
+		</h6>
+
+		<p class="project-date"> /*Fecha proyecto*/
+		<small>Date: <strong>20/  /02/2019</strong></small></p>
+
+		<p class="project-url"> /*Url proyecto*/
+		<small><strong>Can U see in:</strong> https://github.com/Evertcolombia/Personal-Presentation-</small></p>
+
+		<p class="project-description">
+		</p> /*descripcion del pryecto*/
+
+	</div>
+
+	<figure class="project-imageContainer" src='images/Platzi-video-react-native.png' />
+
+	/*figure  identifica su contenido autonomo en relacion  a su contenido principal*/
+
+	</figure>
+	</article>
+	</div>
+</section>
+
+//vamos ahora a darle estilos en el css
+
+h2 {
+
+	color: #026fff;
+
+	text-transform: uppercase; /*pase el texto a mayusculas*/
+
+	font-family:  'Source Sans Pro', sans-serif;
+	
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 40px; /*Margin hacia abajo*/
+}
+
+.portfolio { 
+	background: #fafafa;
+	padding: 20px;
+}
+
+.project {
+
+	border: 1px solid gray; /*borde alrededor de cada proyecto*/
+
+	border-radius: 10px; /*un radio de curva en los bordes*/
+	
+	margin-bottom: 15px;
+
+	padding: 20px; /*padding = margen hacia adentro */
+	
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	box-shadow: 3px 5px 3px #888888; /*sombreado alrededor de cada proyecto*/
+}
+
+
+.project-details {
+	width: 500px; /*ancho de 500px*/
+}
+
+.project-title {
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.project-course, .project-date, .project-url { 
+	margin: 10px 0;
+
+	font-size: 1.05em; /*Tamaño de fuente 1.05 mas grande en referencia al tamaño de fuente de su  Elemento padre*/
+}
+
+.project-description {
+	font-size:  20px;
+}
+
+.project-imageContainer {
+	width: 500px;
+}
+
+.project-image {
+	width: 100%; /*100% de su espacio ocupe*/
+}
+
+//con esto termina el tag 07 
 
 
 
