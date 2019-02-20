@@ -12,6 +12,34 @@ body {
 	justify-content: space-between;
 }
 
+.header ol {
+	display: flex;
+	height: inherit;
+}
+
+.header ol li {
+	height: inherit;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: inherit;
+	padding: 0 20px;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+figure {
+	margin: 0;
+}
+
 .container {
 	width: 1000px;
 	margin: 0 auto;

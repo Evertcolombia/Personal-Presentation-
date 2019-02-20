@@ -126,6 +126,50 @@ body {  //que la fuente de letra titular sea la que elegimos de google, y cuando
 //aqui termina el tag 04
 
 
+5--//Siguiendo con el header pasemos a darle estilo a los elementos del nav
+
+
+.header ol { //todos los elementos ol dentro del elemento con la clase header
+
+	display: flex;
+	height: inherit;
+}
+
+
+.header ol li { //todos los elementos con .header que tengan dentro un ol que tengan dentro un li
+
+	height: inherit;
+}
+
+
+.header a { //todos los a tag dentro del elemento con la clase .header
+
+	color: white;
+	text-decoration: none; //sin decoracion los enlaces
+
+	display: flex;
+	align-items: center;
+	height: inherit;
+	padding: 0 20px;
+}
+
+//ahora un margin 0 al elemento figure
+
+figure {
+	margin: 0;
+}
+
+//ahora a nuestra lista de items
+
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none; //sin estilos de lista
+}
+
+//aqui termina el tag 05 y la seccion del header por ahora
+
+
 
 
 
