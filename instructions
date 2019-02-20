@@ -1,0 +1,9 @@
+1-//Como primer paso en el desarrollo de un sitio web debemos imaginar y establecer la estructura de nuestro sitio web, es decir el header, el body con sus secicones, y el footer
+
+//Crearemos un archivo firstIndex.html que contendra esta inicial estructura simple, en la que basaremos nuestra estructura
+
+//Esta contiene un Header con una lista de tres items
+
+//El body se compone de tres secciones
+
+//y el footer, hagamos eso en el codigo para el tag 01
